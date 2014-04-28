@@ -1,0 +1,9 @@
+<% if @events.any? %>
+
+  <% @events.each do |event| %>
+    <%= event.name %>
+  <% end %>
+
+<% else %>
+  <h1>no events </h1>
+<% end %> 
